@@ -13,7 +13,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(
+            \Laravel\Fortify\Contracts\CreatesNewUsers::class,
+            \App\Actions\Fortify\CreateNewUser::class
+        );
     }
 
     /**

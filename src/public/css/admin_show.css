@@ -1,0 +1,46 @@
+.admin-show-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.admin-show-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.contact-details strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 30px;
+}
+.back-button,
+.delete-button {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+.back-button:hover,
+.delete-button:hover{
+background-color:#ccc;
+}

@@ -1,0 +1,25 @@
+.thanks-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.thanks-message {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.home-button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home-button:hover {
+    background-color: #ccc;
+}

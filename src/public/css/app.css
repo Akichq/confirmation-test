@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    color: #8B7E6B;
+    background-color: #f5f2ee;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px 400px 0px 500px;
+}
+
+.header-logo {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.header-logo a {
+    color: #8B7E6B;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav .nav-button {
+    background-color: #ece9e3af;
+    color: #c2beb2;
+    border: 1px solid #8B7E6B;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* フラッシュメッセージ */
+.flash-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}

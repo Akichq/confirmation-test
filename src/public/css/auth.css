@@ -1,0 +1,93 @@
+/* login,register 共通 */
+body {
+    background-color: #f8f0e5; /* 画像に合わせた背景色 */
+    font-family: Arial, sans-serif; /* フォントはお好みで */
+}
+
+/* コンテナ */
+.container {
+    max-width: 500px; /* フォームの最大幅を少し狭く */
+    margin: 50px auto; /* 上下にマージンを追加 */
+    padding: 30px;    /* パディングを少し増やす */
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: none; /*containerの影を消す*/
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555; /* 見出しの色 */
+}
+
+/* フォームグループ */
+.form-group {
+    margin-bottom: 20px; /* 各入力欄の間隔 */
+}
+
+/* 入力欄 */
+.form-input {
+    width: 100%;
+    padding: 15px; /* パディングを増やす */
+    border: none; /* 枠線を消す */
+    border-radius: 25px; /* 角丸を強く */
+    background-color: #fff; /* 背景色を白に */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 影をつける */
+    font-size: 16px; /* フォントサイズ */
+}
+
+/* プレースホルダー */
+.form-input::placeholder {
+    color: #999; /* プレースホルダーの色 */
+    /*font-style: italic;  イタリック体 */
+    font-size: 0.9rem;
+}
+
+/* エラーメッセージ */
+.error-message {
+    color: #dc3545; /* エラーメッセージの色 */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 送信ボタン */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px; /* 角丸 */
+    background-color: #a8a196; /* ボタンの背景色 */
+    color: #fff; /* ボタンの文字色 */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top:20px; /*上に余白*/
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
+
+.link-container{
+ text-align: right;
+}
+
+/* loginへのリンク */
+.login-link,
+.register-link {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.login-link:hover,
+.register-link:hover{
+ background-color: #333;
+}

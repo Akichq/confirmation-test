@@ -1,0 +1,130 @@
+.admin-container {
+    max-width: 1200px; /* 最大幅 */
+    margin: 50px auto; /* 中央揃え & 上下余白 */
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.admin-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* 検索フォーム */
+.search-form {
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.search-form-row {
+    display: flex;
+    flex-wrap: wrap; /* 折り返し */
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.search-input-group {
+    width: 30%; /* 3列 */
+    margin-bottom: 10px;
+}
+
+.search-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-button,
+.reset-button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.search-button:hover,
+.reset-button:hover{
+    background-color:#ccc;
+}
+
+/* エクスポートボタン */
+.export-form {
+    text-align: right; /* 右寄せ */
+    margin-bottom: 20px;
+}
+
+.export-button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.export-button:hover{
+    background-color:#ccc;
+}
+/* テーブル */
+.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.contacts-table th,
+.contacts-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.contacts-table th {
+    background-color: #f0f0f0;
+}
+
+/* 詳細、削除ボタン */
+.detail-link,
+.delete-button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.detail-link:hover,
+.delete-button:hover{
+    background-color:#ccc;
+}
+/* ページネーション */
+.pagination-links {
+    text-align: center;
+}
+.pagination-links ul {
+    list-style: none;
+    display:inline-flex;
+}
+.pagination-links li a, .pagination-links li span {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+}
